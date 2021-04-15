@@ -1,0 +1,51 @@
+# Rust
+
+### rust的一些开发工具:
+
++ cargo 内置的依赖管理器和构建工具
++ rustfmt 代码风格化
++ rust language server 集成开发环境(未完善)
+
+### Hello World
+
+```rust
+fn main() {
+    println("Hello World!");
+}
+```
+
+main函数总是最先运行的代码
+
+println!是一个调用宏不是调用函数
+
+`rustc main.rs` 编译
+
+`main.exe` 运行
+
+### Cargo 构建系统和包管理器
+
+`cargo --version` 查看版本号
+
+#### 使用cargo创建项目
+
+```rust
+cargo new hello_cargo
+cd hello_cargo
+```
+
+#### 使用cargo构建项目
+
+`cargo build` 构建项目
+
+`cargo run` 运行项目
+
+`cargo check` 快速检查代码确保可以编译
+
+`cargo build --release` 发布 (release) 构建
+
+
+
+
+
+
+
